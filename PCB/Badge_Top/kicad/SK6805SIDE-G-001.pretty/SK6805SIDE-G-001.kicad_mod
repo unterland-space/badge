@@ -1,0 +1,56 @@
+(footprint "SK6805SIDE-G-001" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 1.7 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 7772826a-d0f3-4776-b3e5-d7621930630b)
+  )
+  (fp_text value "SK6805SIDE-G-001" (at 0 3.2 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp eeacdb4b-284f-45d3-b591-703bc0ca0692)
+  )
+  (fp_text user "${REFERENCE}" (at 0 5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 56c92268-659a-4e6e-8f1d-4fef0cc96c2a)
+  )
+  (fp_rect (start -1.75 -1.4) (end 1.75 0.1)
+    (stroke (width 0.12) (type default)) (fill none) (layer "F.SilkS") (tstamp f92079f7-a370-45e9-8b40-7a7911f3f3b7))
+  (pad "1" smd custom (at -1.425 0) (size 0.45 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -0.225 -0.22)
+          (xy -0.705 -0.22)
+          (xy -0.705 0.07)
+          (xy -0.225 0.07)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 4829a75d-9022-4718-96e1-bcc9990da990))
+  (pad "2" smd rect (at -0.5 0) (size 0.4 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45) (tstamp 68039576-c02f-430a-bebf-939e323982f1))
+  (pad "3" smd custom (at 1.425 0) (size 0.45 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.225 -0.22)
+          (xy 0.705 -0.22)
+          (xy 0.705 0.07)
+          (xy 0.225 0.07)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 283b7938-7f4e-4399-b9f4-4f1f9f168dea))
+  (pad "4" smd rect (at 0.5 0) (size 0.5 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45) (tstamp 1b6a3fd2-280e-4dd8-ab7b-370b5a76c88b))
+  (group "" (id 483d4e83-584b-4e51-9477-b074c8911334)
+    (members
+      1b6a3fd2-280e-4dd8-ab7b-370b5a76c88b
+      283b7938-7f4e-4399-b9f4-4f1f9f168dea
+      4829a75d-9022-4718-96e1-bcc9990da990
+      68039576-c02f-430a-bebf-939e323982f1
+    )
+  )
+)

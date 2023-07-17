@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SK6805SIDE-G-001")(type "KiCad")(uri "${KIPRJMOD}/kicad/SK6805SIDE-G-001.pretty")(options "")(descr ""))
+)
