@@ -1252,6 +1252,12 @@
     (uuid d2b5388f-1c33-4bb1-9796-0c095ef5787d)
   )
 
+  (text "TODO:\n- Finish schematic\n- Route PCB\n- Add JLCPCB Parts"
+    (at 204.47 36.83 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c5a8b8d7-37ea-4da7-ba80-5d0a17a01536)
+  )
+
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 50.8 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f0b9045-805d-46db-9aa8-ad2d6dd88ec9)
