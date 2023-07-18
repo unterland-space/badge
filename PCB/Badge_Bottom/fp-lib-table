@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PJ-320")(type "KiCad")(uri "${KIPRJMOD}/kicad/PJ-320.pretty")(options "")(descr ""))
+  (lib (name "TM2024A")(type "KiCad")(uri "${KIPRJMOD}/kicad/TM2024A.pretty")(options "")(descr ""))
+  (lib (name "TP4054")(type "KiCad")(uri "${KIPRJMOD}/kicad/TP4054.pretty")(options "")(descr ""))
+  (lib (name "MSK12C02-HB")(type "KiCad")(uri "${KIPRJMOD}/kicad/MSK12C02-HB.pretty")(options "")(descr ""))
+)
