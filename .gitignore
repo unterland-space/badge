@@ -1,3 +1,5 @@
 Badge_Top-backups/
 Badge_Bottom-backups/
 venv/
+gerber/
+*.kicad_sch_old

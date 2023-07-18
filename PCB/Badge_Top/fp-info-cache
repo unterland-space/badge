@@ -1,4 +1,4 @@
-21744969291395505
+21816067867961122
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60822,6 +60822,272 @@ Yellow 5381 Series LED
 0
 2
 2
+LeoDJ-kicad
+APA102_SolderPads
+
+
+0
+4
+4
+LeoDJ-kicad
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+LeoDJ-kicad
+LED_D5.0mm_Horizontal_O1.27mm_Z9.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins
+0
+2
+2
+LeoDJ-kicad
+L_0520
+https://www.atec-group.com/storage/system/product/atwspec/Inductive/Shielded_SMD_Power_Inductor/CIP/CIP0520HI.pdf
+Inductor 0520
+0
+2
+2
+LeoDJ-kicad
+L_0630
+http://www.dzsc.com/uploadfile/company/808842/2011910112948770.pdf
+Inductor 0630
+0
+2
+2
+LeoDJ-kicad
+Logo_PCBDerg_10mm
+
+
+0
+0
+0
+LeoDJ-kicad
+Logo_PCBDerg_50mm
+
+
+0
+0
+0
+LeoDJ-kicad
+Logo_PCBDerg_Mask_10mm
+
+
+0
+0
+0
+LeoDJ-kicad
+Logo_PCBDerg_Multicolor_10mm
+
+
+0
+0
+0
+LeoDJ-kicad
+Logo_PCBDerg_Multicolor_50mm
+
+
+0
+0
+0
+LeoDJ-kicad
+Microphone_9.5mm
+
+
+0
+2
+2
+LeoDJ-kicad
+NRF24L01_E01-2G4M01S1B
+Pin order: Vcc, CE, ..., GND
+NRF24L01, EByte, E01, 2G4M01S1B
+0
+8
+8
+LeoDJ-kicad
+NRF24L01_SMD
+Pin order: Vcc, GND, CE, ...
+
+0
+8
+8
+LeoDJ-kicad
+NRF24L01_SMD_PadsOnly
+Pin order: Vcc, GND, CE, ...
+
+0
+8
+8
+LeoDJ-kicad
+NightFury_BirdsEye_8.3x5.4
+
+
+0
+0
+0
+LeoDJ-kicad
+NightFury_BirdsEye_12.4x8.2
+
+
+0
+0
+0
+LeoDJ-kicad
+NightFury_BirdsEye_24.8x16.3
+
+
+0
+0
+0
+LeoDJ-kicad
+NightFury_Roll_8.0x6.1
+
+
+0
+0
+0
+LeoDJ-kicad
+NightFury_Roll_12.1x9.2
+
+
+0
+0
+0
+LeoDJ-kicad
+Otter_Lightbulb
+
+
+0
+0
+0
+LeoDJ-kicad
+Otter_Lightbulb_small
+
+
+0
+0
+0
+LeoDJ-kicad
+Otter_Lightbulb_smaller
+
+
+0
+0
+0
+LeoDJ-kicad
+Paw-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical
+Paw-Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf; https://twitter.com/_LeoDJ
+paw tag connect programming header pogo pins
+0
+6
+6
+LeoDJ-kicad
+PinHeader_2x14_P2.54mm_Vertical
+Through hole straight pin header, 2x14, 2.54mm pitch, double rows
+Through hole pin header THT 2x14 2.54mm double row
+0
+28
+28
+LeoDJ-kicad
+PinSocket_2x14_P2.54mm_Vertical
+Through hole straight socket strip, 2x14, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x14 2.54mm double row
+0
+28
+28
+LeoDJ-kicad
+QR_Code_LEDCollar
+
+
+0
+0
+0
+LeoDJ-kicad
+QR_Code_SHMod24
+
+
+0
+0
+0
+LeoDJ-kicad
+QR_Code_SHMod24-IRRF
+
+
+0
+0
+0
+LeoDJ-kicad
+RF_Receiver_433_MHz
+433 MHz RF Receiver
+rf receiver 433 mhz
+0
+4
+4
+LeoDJ-kicad
+RF_Transmitter_433_MHz
+
+
+0
+3
+3
+LeoDJ-kicad
+R_0805_2012Metric
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+LeoDJ-kicad
+SOIC-8_Bodge_PCB-Connector
+Footprint to solder a bodge PCB onto a SOIC-8 footprint
+SOIC SO Bodge
+0
+8
+8
+LeoDJ-kicad
+SOLDER-JUMPER_1-WAY
+
+
+0
+2
+2
+LeoDJ-kicad
+SOLDER-JUMPER_1-WAY-CLOSED
+
+
+0
+2
+1
+LeoDJ-kicad
+SOLDER-JUMPER_2-WAY
+
+
+0
+3
+3
+LeoDJ-kicad
+SOLDER-JUMPER_2-WAY-CLOSED
+
+
+0
+3
+2
+LeoDJ-kicad
+TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal_fixed
+Terminal Block Phoenix MPT-0,5-2-2.54, 2 pins, pitch 2.54mm, size 5.54x6.2mm^2, drill diamater 1.1mm, pad diameter 2.2mm, see http://www.mouser.com/ds/2/324/ItemDetail_1725656-920552.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MPT-0.5-2-2.54 pitch 2.54mm size 5.54x6.2mm^2 drill 1.1mm pad 2.2mm
+0
+2
+2
+LeoDJ-kicad
+VS1838b
+
+
+0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -64525,6 +64791,34 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PCM_kikit
+Board
+Mark board for extraction
+
+0
+0
+0
+PCM_kikit
+Fiducial
+Circular Fiducial
+fiducial
+0
+1
+0
+PCM_kikit
+NPTH
+
+
+0
+0
+0
+PCM_kikit
+Tab
+A symbol representing annotation for tab placement
+
+0
+0
+0
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -79148,6 +79442,41 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Paw-Connect
+Paw-Connect_RevA_TC2030-IDC-NL_2x03_P1.27mm_Vertical
+Paw-Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf; https://github.com/LeoDJ/Paw-Connect
+paw tag connect programming header pogo pins
+0
+6
+6
+Paw-Connect
+Paw-Connect_RevB_TC2030-IDC-NL_2x03_P1.27mm_Vertical
+Paw-Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf; https://github.com/LeoDJ/Paw-Connect
+paw tag connect programming header pogo pins
+0
+7
+7
+Paw-Connect
+Paw-Connect_Silk_Full
+Paw-Connect shape as a silkscreen layer, for expanding the paw print track; https://github.com/LeoDJ/Paw-Connect
+paw tag connect silkscreen
+0
+0
+0
+Paw-Connect
+Paw-Connect_Silk_RevA
+Paw-Connect shape as a silkscreen layer, for expanding the paw print track; https://github.com/LeoDJ/Paw-Connect
+paw tag connect silkscreen
+0
+0
+0
+Paw-Connect
+Paw-Connect_Silk_RevB
+Paw-Connect shape as a silkscreen layer, for expanding the paw print track; https://github.com/LeoDJ/Paw-Connect
+paw tag connect silkscreen
+0
+0
+0
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -81374,6 +81703,13 @@ Kemet EC2 signal relay DPDT double dual coil latching through hole THT
 0
 10
 10
+Relay_THT
+Relay_DPDT_Omron_G2RL
+Omron Relay DPDT, https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+Omron Relay DPDT
+0
+8
+8
 Relay_THT
 Relay_DPDT_Omron_G2RL-2
 Omron Relay, DPDT, https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
