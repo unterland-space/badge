@@ -1,0 +1,64 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,1u,C_0603_1608Metric,-8.975,11.1,0.0,top
+C2,1u,C_0603_1608Metric,-12.175,9.2,0.0,top
+C3,1u,C_0603_1608Metric,10.125,6.3,0.0,top
+C4,0.1u,C_0603_1608Metric,-9.175,4.44,0.0,top
+C5,0.1u,C_0603_1608Metric,-9.175,1.93,0.0,top
+C6,0.1u,C_0603_1608Metric,-9.175,-0.58,0.0,top
+C7,0.1u,C_0603_1608Metric,-9.175,-3.09,0.0,top
+C8,0.1u,C_0603_1608Metric,-9.175,-5.6,0.0,top
+C9,0.1u,C_0603_1608Metric,-0.075,-9.5,0.0,top
+C10,0.1u,C_0603_1608Metric,-5.575,-7.3,0.0,top
+C11,20p,C_0603_1608Metric,-14.575,-3.9,0.0,top
+C12,20p,C_0603_1608Metric,-14.5,-5.8,0.0,top
+Card1,MicroSD,TF-SMD_TF-PUSH,-13.0,-0.0,90.0,bottom
+CN1,JACK_IN,AUDIO-TH_HOOYA_PJ-320,11.753083,-20.731261,120.0,top
+CN2,JACK_OUT,AUDIO-TH_HOOYA_PJ-320,-12.046917,-20.731261,60.0,top
+D1,CHG,LED_0603_1608Metric,-9.3,29.7,120.0,top
+D2,USER,LED_0603_1608Metric,-7.7,30.6,120.0,top
+D3,1N5819,D_SOD-323,-14.4,16.4,0.0,top
+D4,1N5819,D_SOD-323,6.9,20.0,0.0,top
+J1,USB_FS,USB_C_Receptacle_HRO_TYPE-C-31-M-12,-14.446917,24.768739,30.0,top
+J2,USB_HS,USB_C_Receptacle_HRO_TYPE-C-31-M-12,14.253083,24.468739,330.0,top
+J3,BAT,JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal,0.0,23.7,180.0,top
+J4,Nylon Screw,Standoff_Pad_M2,-0.025886,34.080662,0.0,top
+J5,Metal Screw,Standoff_Pad_M2,-29.515638,17.042913,0.0,top
+J6,Nylon Screw,Standoff_Pad_M2,-29.505391,-17.014836,0.0,top
+J7,Metal Screw,Standoff_Pad_M2,29.474113,17.060662,0.0,top
+J8,Nylon Screw,Standoff_Pad_M2,29.48436,-16.997087,0.0,top
+J9,Metal Screw,Standoff_Pad_M2,-0.005392,-34.034836,0.0,top
+J11,Power,PinHeader_2x02_P2.54mm_Vertical,-21.4,-20.7,120.0,bottom
+J12,GPIO,PinHeader_2x02_P2.54mm_Vertical,6.5,-29.2,60.0,bottom
+J13,GPIO,PinHeader_2x02_P2.54mm_Vertical,28.9,9.9,0.0,bottom
+J14,GPIO,PinHeader_2x02_P2.54mm_Vertical,-28.9,-9.9,180.0,bottom
+J15,GPIO,PinHeader_2x02_P2.54mm_Vertical,-6.4,-29.4,120.0,bottom
+J16,GPIO,PinHeader_2x02_P2.54mm_Vertical,-28.9,9.9,180.0,bottom
+J17,GPIO,PinHeader_2x02_P2.54mm_Vertical,28.9,-9.9,0.0,bottom
+J18,SAO,PinSocket_2x02_P2.54mm_Horizontal,-21.546917,16.768739,-60.0,top
+J19,Power,PinHeader_2x02_P2.54mm_Vertical,22.4,-19.999999,60.0,bottom
+J20,Debug,PinSocket_2x02_P2.54mm_Horizontal,21.053082,16.468739,-120.0,top
+Q1,AO3400A,SOT-23,-4.8,31.7,300.0,top
+R1,10k,R_0603_1608Metric,7.875,-5.1,0.0,top
+R2,1.65k,R_0603_1608Metric,-5.3,14.4,0.0,top
+R3,330,R_0603_1608Metric,-7.225,27.0,0.0,top
+R4,100,R_0603_1608Metric,10.175,-13.3,0.0,top
+R5,100,R_0603_1608Metric,6.275,-15.3,0.0,top
+R6,100,R_0603_1608Metric,-6.525,-15.3,0.0,top
+R7,100,R_0603_1608Metric,-10.825,-12.9,0.0,top
+R8,5k1,R_0603_1608Metric,-8.7,19.9,0.0,top
+R9,5k1,R_0603_1608Metric,-11.0,18.0,0.0,top
+R10,5k1,R_0603_1608Metric,9.7,16.4,0.0,top
+R11,5k1,R_0603_1608Metric,9.175,13.4,0.0,top
+R12,10k,R_0603_1608Metric,22.175,0.9,0.0,top
+R13,1M,R_0603_1608Metric,10.375,3.9,0.0,top
+R14,1M,R_0603_1608Metric,10.475,2.1,0.0,top
+R15,10k,R_0603_1608Metric,-5.625,-9.3,0.0,top
+R16,10k,R_0603_1608Metric,-7.025,17.1,0.0,top
+R17,1k,R_0603_1608Metric,-6.225,24.9,0.0,top
+SW1,TM-2024A,SW-SMD_TM-2024A,28.5,-0.0,-90.0,top
+SW2,TM-2024A,SW-SMD_TM-2024A,-28.5,-0.0,90.0,top
+SW3,MSK12C02-HB,SW-TH_MSK12C02-HB-1,5.978083,29.712127,150.0,top
+U1,TP4054,SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL,-8.9,14.2,180.0,top
+U2,CH32V305RBT6,LQFP-64_10x10mm_P0.5mm,0.0,-0.0,315.0,top
+U4,XC6206PxxxMR,SOT-23-3,10.3625,9.3,180.0,top
+Y1,8M,Crystal_SMD_5032-2Pin_5.0x3.2mm,-14.15,-0.6,0.0,top
