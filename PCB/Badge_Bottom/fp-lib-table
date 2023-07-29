@@ -9,4 +9,6 @@
   (lib (name "2x02_pinsocket_254")(type "KiCad")(uri "${KIPRJMOD}/kicad/2x02_pinsocket_254.pretty")(options "")(descr ""))
   (lib (name "JSTPH_Clone")(type "KiCad")(uri "${KIPRJMOD}/kicad/JSTPH_Clone.pretty")(options "")(descr ""))
   (lib (name "TFPUSH")(type "KiCad")(uri "${KIPRJMOD}/kicad/TFPUSH.pretty")(options "")(descr ""))
+  (lib (name "SS-3390S-L2")(type "KiCad")(uri "${KIPRJMOD}/kicad/SS-3390S-L2.pretty")(options "")(descr ""))
+  (lib (name "cfhn")(type "KiCad")(uri "${KIPRJMOD}/kicad/cfhn.pretty")(options "")(descr ""))
 )

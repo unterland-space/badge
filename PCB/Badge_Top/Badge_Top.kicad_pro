@@ -465,7 +465,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Badge_Top.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

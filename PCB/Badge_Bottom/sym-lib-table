@@ -6,4 +6,5 @@
   (lib (name "TP4054")(type "KiCad")(uri "${KIPRJMOD}/kicad/TP4054.kicad_sym")(options "")(descr ""))
   (lib (name "MSK12C02-HB")(type "KiCad")(uri "${KIPRJMOD}/kicad/MSK12C02-HB.kicad_sym")(options "")(descr ""))
   (lib (name "TFPUSH")(type "KiCad")(uri "${KIPRJMOD}/kicad/TFPUSH.kicad_sym")(options "")(descr ""))
+  (lib (name "SS-3390S-L2")(type "KiCad")(uri "${KIPRJMOD}/kicad/SS-3390S-L2.kicad_sym")(options "")(descr ""))
 )
