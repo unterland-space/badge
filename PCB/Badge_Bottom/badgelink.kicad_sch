@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Unterland Badge Bottom")
+    (date "2023-07-29")
+    (rev "1")
+    (company "Unterland")
+    (comment 1 "BadgeLink Expansion Section")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 6.858 0)
