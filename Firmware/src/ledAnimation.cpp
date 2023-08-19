@@ -232,8 +232,8 @@ anim_t anims[] = {
     // {"larsson", larssonScanner},
     {"larssonRainbow", larssonScannerRainbow},
     {"twinkleStars", twinkleStars},
-    {"vu1", vu1},
-    {"pulses", pulses}
+    // {"vu1", vu1},
+    // {"pulses", pulses}
     #endif
 };
 

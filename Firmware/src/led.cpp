@@ -1,6 +1,7 @@
 #include "led.h"
-#include "apa102.h"
-#include "analogSensors.h"
+#include "util.h"
+#include "globals.h"
+#include "ws2812.h"
 
 #include <stdlib.h>
 
@@ -13,9 +14,8 @@ uint8_t currentAnimation = 4;
 
 
 void initLed() {
-    initApa102();
-    setGlobalBrightness(1);
-    initAnimation(NUM_LEDS, setLed);
+    ws2812Init();
+    initAnimation(NUM_LEDS, ws2812SetLed);
     setAnimation(currentAnimation);
     // setAnimation("vu1");
     // setAnimationIntensity(255);
@@ -27,24 +27,15 @@ uint32_t lastAnimationNext = 0;
 bool shownBatteryStatus = false;
 
 void loopLed() {
-    // after boot, show battery state for a few seconds
-    if (!shownBatteryStatus) {
-        uint8_t linearBattPercent = (getVcc() - 3000) / 12;
-        ledDisplayBatteryPercent(linearBattPercent);
-
-        if (HAL_GetTick() > INITIAL_BATTERY_SHOW_TIME) {
-            shownBatteryStatus = true;
-        }
-    }
     // TODO: replace this with timer
-    else if (HAL_GetTick() - lastLedUpdate > 1000 / UPDATE_RATE) { // only do update if update rate allows it
-        lastLedUpdate = HAL_GetTick();
+    if (millis() - lastLedUpdate > 1000 / UPDATE_RATE) { // only do update if update rate allows it
+        lastLedUpdate = millis();
         
         stepAnimation();
-        doLedTransfer();
+        // doLedTransfer();
     }
 
-    if (HAL_GetTick() - lastAnimationNext >= 10000) {
+    if (millis() - lastAnimationNext >= 10000) {
         // resetting lastAnimationNext happens in the function
         // ledNextAnimation();
         ledRandomAnimation();
@@ -52,7 +43,7 @@ void loopLed() {
 }
 
 void ledNextAnimation() {
-    lastAnimationNext = HAL_GetTick();  // also reset next animation counter on manual call of this function
+    lastAnimationNext = millis();  // also reset next animation counter on manual call of this function
     currentAnimation++;
     if (currentAnimation >= getAnimationCount()) {
         currentAnimation = 0;
@@ -61,7 +52,7 @@ void ledNextAnimation() {
 }
 
 void ledRandomAnimation() {
-    lastAnimationNext = HAL_GetTick();  // also reset next animation counter on manual call of this function
+    lastAnimationNext = millis();  // also reset next animation counter on manual call of this function
     uint8_t randNum = rand() % getAnimationCount();
     if (randNum == currentAnimation) {  // if it choses the same animation, try again
         ledRandomAnimation();
@@ -71,23 +62,23 @@ void ledRandomAnimation() {
     setAnimation(currentAnimation);
 }
 
-void ledBlink(uint32_t blinks, uint32_t delay, uint32_t rgb) {
+void ledBlink(uint32_t blinks, uint32_t delayMs, uint32_t rgb) {
     for (uint32_t i = 0; i < blinks; i++) {
-        HAL_Delay(delay);
-        fillLed(rgb);
-        doLedTransfer();
-        HAL_Delay(delay);
-        fillLed(0x000000);
-        doLedTransfer();
+        delay(delayMs);
+        ws2812Fill(rgb);
+        // doLedTransfer();
+        delay(delayMs);
+        ws2812Fill(0x000000);
+        // doLedTransfer();
     }
 }
 
 void ledDisplayBatteryPercent(uint8_t battPercent) {
     uint8_t numberOfLedsToShow = NUM_LEDS *  battPercent / 100;
-    fillLed(0);
+    ws2812Fill(0);
     for (int i = 0; i < numberOfLedsToShow; i++) {
         uint8_t iScaled = i * 255 / (NUM_LEDS-1);
-        setLed(i, (255 - iScaled) << 16 | iScaled << 8);
+        ws2812SetLed(i, (255 - iScaled) << 16 | iScaled << 8);
     }
-    doLedTransfer();
+    // doLedTransfer();
 }
